@@ -26,3 +26,4 @@ Average = Sum/3
 Print('TheSum is',Sum)
 
 Print('The average of 3 tests is', Average)
+#something
