@@ -21,7 +21,7 @@ Flag=False
 #declare Sum to add tests symbol for addition is +
 Sum= test1 + test2 + test3
 #average we will devision ....
-Average= Sum/3
+Average = Sum/3
 
 Print('TheSum is',Sum)
 
