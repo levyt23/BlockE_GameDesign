@@ -1,12 +1,7 @@
 import random, os
 os.system ('clear')
 
-
 #  today wearelearning  to try and excpet, functions,  elif
-
-
-
-
 #  lets  make a menu function key word fef
 def menu():
     print('########################################')
@@ -20,7 +15,10 @@ check=True
 while  check:
     try:
         choice=int(input("choice:"))
-        check = False
+        if choice>0 or choice<4:
+            check = False
+        else:
+            print ("please enter a number 1-3")
     except ValueError:
             print("sorry, wrong choice, try again")
 
@@ -33,7 +31,7 @@ elif choice == 3:
 
 randomNum(gametype) 
 
-gameon= True
+gameon = True
 #looping with  condition
 while(gameon):
     userguess=int(input("guess a number..."))
@@ -43,6 +41,6 @@ while(gameon):
     else:
         print ("good luck next time", mynumber)
 print("the number  to  guess was " + str(mynumber))
-counter==
-os.system('clear")
+
+os.system('clear')
 menu()
